@@ -31,7 +31,7 @@ SENSITIVE_PROPERTY = re.compile(
     r'entropy|snapshot|host[-_]os|syscfg|boot[-_]?args?|bootarg|imei|meid|'
     r'region-info|country-of-origin|config-number|model-config|repair|'
     r'breadcrumb|bootp|measurement|ticket|account|password|credential|secret|token|'
-    r'edid|eeprom|speaker-thiele-small|speaker-trim-gains|wifi-rfem-info', re.I)
+    r'edid|eeprom', re.I)
 
 
 
